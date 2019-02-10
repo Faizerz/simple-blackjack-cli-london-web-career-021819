@@ -3,15 +3,16 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
+  card = 1+rand(11)
+  return card
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(total)
+  puts total
 end
 
 def prompt_user
-  # code #prompt_user here
+  gets.chomp
 end
 
 def get_user_input
